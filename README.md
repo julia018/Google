@@ -9,5 +9,7 @@
   - images/ - icons used for main page;
   - stylelintrc.config.js - rules for stylelint plugin;
   - gulpgile.js - gulp taskfile for postcss processing (css/*.css -> dest/). 
+  
+  *P.S. css-files in css/ and dest/ folders now are identical.
 
 
