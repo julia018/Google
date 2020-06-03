@@ -17,9 +17,7 @@ let confident = document.getElementById('confident');
 let conditions = document.getElementById('conditions');
 let settings = document.getElementById('settings');
 
-langLink.onclick = toogleLang
-
-function toogleLang() {
+const toogleLang = () => {
     //header    
     mailLink.innerHTML == "Gmail" ? mailLink.innerHTML = "Почта" : mailLink.innerHTML = "Gmail"
     imagesLink.innerHTML == "Вiдарысы" ? imagesLink.innerHTML = "Картинки" : imagesLink.innerHTML = "Вiдарысы"
@@ -44,3 +42,5 @@ function toogleLang() {
     conditions.innerHTML == "Умовы" ? conditions.innerHTML = "Условия" : conditions.innerHTML = "Умовы"
     settings.innerText == "Налады" ? settings.innerText = "Настройки" : settings.innerText = "Налады"
 }
+
+langLink.onclick = toogleLang
